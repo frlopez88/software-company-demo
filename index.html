@@ -145,7 +145,7 @@
       </div>
     </div>
     <!-- Contact Us -->
-    <div id="contact" class="container border rounded-2 p-4 mb-5">
+    <form id="contact" class="container border rounded-2 p-4 mb-5">
       <h1 class="display-5">Contact Us</h1>
 
      <div class="mb-3">
@@ -154,6 +154,7 @@
 
      </div>
 
+     
       <div class="mb-3">
         <label for="contactEmail" class="form-label"
           >Email address</label
@@ -177,11 +178,14 @@
         ></textarea>
       </div>
 
-      <button class="btn btn-primary">Submit</button>
-    </div>
+      <button onclick="createLead()" class="btn btn-primary">Submit</button>
+    </form>
     <!-- Footer -->
     <footer class="text-center">
         <p>&copy; 2025 Created @ CodeX</p>
     </footer>
+
+
+    <script src="app.js"></script>
   </body>
 </html>
